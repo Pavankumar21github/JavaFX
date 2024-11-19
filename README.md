@@ -18,3 +18,7 @@ This project is a JavaFX application
 --add-exports javafx.base/com.sun.javafx.runtime=ALL-UNNAMED
 --add-exports javafx.controls/com.sun.javafx.scene.control=ALL-UNNAMED
 --add-exports javafx.controls/com.sun.javafx.scene.control.behavior=ALL-UNNAMED
+
+jtestcli -config "builtin://CWE 4.14" -publish -project.name "JavaFX" -project.sourcepath "C:\Users\Admin\git\JavaFX\src" -project.classpath "C:\Users\Admin\git\JavaFX\lib\*" -project.location "C:\Users\Admin\git\JavaFX" -project.encoding "UTF-8" -project.javahome "C:\Program Files\Java\jdk-17"
+
+jtestcli -config "builtin://CWE 4.14" -data "C:\Users\Admin\git\JavaFX\example.data.json" -publish
